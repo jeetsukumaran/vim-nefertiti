@@ -1,5 +1,7 @@
 # MochaLatte
 
+<a href="http://jeetworks.org/wp-content/uploads/vim-mochalatte_1.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-mochalatte_1.png" width=350 /></a>
+
 A warm dark-background color scheme for Vim, featuring dynamic control of
 brightness-levels as needed.
 
