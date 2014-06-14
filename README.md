@@ -1,6 +1,4 @@
-##########
-MochaLatte
-##########
+# MochaLatte
 
 A warm dark-background color scheme for Vim, featuring dynamic control of
 brightness-levels as needed.
@@ -26,7 +24,7 @@ and/or replace them with others of your own preference.
 Copy the file "`colors/mochalatte.vim`" to your "`~.vim/colors/`"
 subdirectory.
 
-## Activation
+## Usage
 
 As with any other color scheme, simply use the "`:colorscheme`" command, e.g.:
 
@@ -37,8 +35,6 @@ To set the color scheme permanently, add the following to your "`~/.vimrc`":
     if has("gui")
         colorscheme mochalatte
     endif
-
-## Usage
 
 Three commands are provided to control the brightness levels: "`:MochalatteBrighten`", "`:MochalatteDarken`", and "`MochalatteReset`"; see [the help](https://github.com/jeetsukumaran/vim-mochalatte/blob/master/doc/mochalatte.txt) for more details.
 
