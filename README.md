@@ -50,10 +50,9 @@ also need something like the following in your "`~/.vimrc`":
 
 ## Samples
 
-![MochaLatte sample](http://jeetworks.org/wp-content/uploads/vim-mochalatte_1-150x150.png)
-![MochaLatte sample](http://jeetworks.org/wp-content/uploads/vim-mochalatte_2-150x150.png)
-![MochaLatte sample](http://jeetworks.org/wp-content/uploads/vim-mochalatte_3-150x150.png)
-![MochaLatte sample](http://jeetworks.org/wp-content/uploads/vim-mochalatte_4-150x150.png)
-![MochaLatte sample](http://jeetworks.org/wp-content/uploads/vim-mochalatte_5-150x150.png)
-![MochaLatte sample](http://jeetworks.org/wp-content/uploads/vim-mochalatte_6-150x150.png)
-
+<a href="http://jeetworks.org/wp-content/uploads/vim-mochalatte_1.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-mochalatte_1.png" width=200 /></a>
+<a href="http://jeetworks.org/wp-content/uploads/vim-mochalatte_2.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-mochalatte_2.png" width=200 /></a>
+<a href="http://jeetworks.org/wp-content/uploads/vim-mochalatte_3.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-mochalatte_3.png" width=200 /></a>
+<a href="http://jeetworks.org/wp-content/uploads/vim-mochalatte_4.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-mochalatte_4.png" width=200 /></a>
+<a href="http://jeetworks.org/wp-content/uploads/vim-mochalatte_5.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-mochalatte_5.png" width=200 /></a>
+<a href="http://jeetworks.org/wp-content/uploads/vim-mochalatte_6.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-mochalatte_6.png" width=200 /></a>
