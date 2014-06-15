@@ -121,8 +121,6 @@ if !exists("g:did_mochalatte_code_setup")
         """ Messaging {{{4
         hi ModeMsg          guifg=#000000   guibg=#00ff00   gui=bold
         hi MoreMsg          guifg=#2e8b57   guibg=bg        gui=bold
-        hi NonText          guifg=#404050   guibg=bg        gui=NONE
-        hi NonText          guifg=#555500   guibg=bg        gui=NONE
         hi ErrorMsg         guifg=#ff6a6a   guibg=NONE      gui=bold
         hi WarningMsg       guifg=#ee9a00   guibg=bg        gui=NONE
         """ }}}4
