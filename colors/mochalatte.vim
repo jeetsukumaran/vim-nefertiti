@@ -93,6 +93,7 @@ if !exists("g:did_mochalatte_code_setup")
         """ Cursor Line/Column {{{4
         hi CursorColumn     guibg=#2d2d2d
         hi CursorLine       guibg=#000000
+        hi CursorLineNr     guifg=#eeaa22 guibg=bg gui=none
         """ }}}4
         """ Structural {{{4
         hi LineNr           guifg=#807060   guibg=#000000   gui=NONE
