@@ -21,7 +21,7 @@ if !exists("g:did_mochalatte_code_setup")
     let s:save_cpo = &cpo
     " }}}2
 
-    " Dynamic Colors Base Definitions {{{2
+    " Dynamic Colors Base Definitions {{{2`
     let s:mochalatte_dynamic_colors = {}
     let s:mochalatte_dynamic_colors["Normal"]            = [ [0xdd, 0xd6, 0xc0], [], "guibg=#302a2a gui=NONE" ]
     let s:mochalatte_dynamic_colors["NonText"]           = [ [0x66, 0x60, 0x46], [], "guibg=bg gui=NONE" ]
@@ -116,8 +116,8 @@ if !exists("g:did_mochalatte_code_setup")
         hi Visual           guifg=#000000   guibg=#768798   gui=NONE
         """ }}}4
         """ Pop-up Menus {{{4
-        hi Pmenu            guifg=#ddaa44   guibg=#403830
-        hi PmenuSel         guifg=#ddaa44   guibg=#000000
+        hi Pmenu            guifg=#000000   guibg=#998877
+        hi PmenuSel         guifg=#000000   guibg=#ffffdd
         """ }}}4
         """ Messaging {{{4
         hi ModeMsg          guifg=#000000   guibg=#00ff00   gui=bold
