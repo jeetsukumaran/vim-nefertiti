@@ -25,7 +25,7 @@ if !exists("g:did_mochalatte_code_setup")
     let s:mochalatte_dynamic_colors = {}
     let s:mochalatte_dynamic_colors["Normal"]            = [ [0xdd, 0xd6, 0xc0], [], "guibg=#302a2a gui=NONE" ]
     let s:mochalatte_dynamic_colors["NonText"]           = [ [0x66, 0x60, 0x46], [], "guibg=bg gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Folded"]            = [ [0xbb, 0xaa, 0x99], [0x40, 0x30, 0x30], "gui=NONE" ]
+    let s:mochalatte_dynamic_colors["Folded"]            = [ [0xbb, 0xaa, 0x99], [0x40, 0x34, 0x34], "gui=NONE" ]
     let s:mochalatte_dynamic_colors["Comment"]           = [ [0x70, 0x70, 0x70], [], "gui=italic" ]
     let s:mochalatte_dynamic_colors["Boolean"]           = [ [0xff, 0x98, 0x00], [], "gui=NONE" ]
     let s:mochalatte_dynamic_colors["String"]            = [ [0xaa, 0xaa, 0x99], [], "gui=NONE" ]
