@@ -60,5 +60,5 @@ following to your '~/.vimrc':
     map <silent> <D-F1>  <Plug>MochalatteDarken
     map <silent> <D-F2>  <Plug>MochalatteBrighten
     map <silent> <D-F3>  <Plug>MochalatteReset
-
+<
  vim:tw=78:ts=8:ft=help:norl:
