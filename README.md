@@ -10,6 +10,8 @@ darken them with "`:MochalatteDarken`". Conveniently bound to "`META-2`" and
 "`META-1`", respectively, but you can, of course, suppress the key mappings
 and/or replace them with others of your own preference.
 
+**NOTE**: GUI Vim only at the present time.
+
 ## Installation
 
 ### [pathogen.vim](https://github.com/tpope/vim-pathogen)
