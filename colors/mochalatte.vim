@@ -116,7 +116,7 @@ if !exists("g:did_mochalatte_code_setup")
         hi Visual           guifg=#000000   guibg=#768798   gui=NONE
         """ }}}4
         """ Pop-up Menus {{{4
-        hi Pmenu            guifg=#000000   guibg=#998877
+        hi Pmenu            guifg=#000000   guibg=#bbaa99
         hi PmenuSel         guifg=#000000   guibg=#ffffdd
         """ }}}4
         """ Messaging {{{4
