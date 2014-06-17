@@ -91,7 +91,7 @@ if !exists("g:did_mochalatte_code_setup")
         hi cCursor          gui=reverse
         """ }}}4
         """ Cursor Line/Column {{{4
-        hi CursorColumn     guibg=#2d2d2d
+        hi CursorColumn     guibg=#000000
         hi CursorLine       guibg=#000000
         hi CursorLineNr     guifg=#ffee99 guibg=bg gui=none
         """ }}}4
