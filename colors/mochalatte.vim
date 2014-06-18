@@ -14,7 +14,7 @@ let colors_name = "mochalatte"
 " }}}1
 
 " Code Setup {{{1
-if 1 || !exists("g:did_mochalatte_code_setup")
+if !exists("g:did_mochalatte_code_setup")
 
     " Preamble {{{2
     let g:did_mochalatte_code_setup = 1
