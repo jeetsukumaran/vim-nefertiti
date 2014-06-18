@@ -14,7 +14,7 @@ let colors_name = "mochalatte"
 " }}}1
 
 " Code Setup {{{1
-if !exists("g:did_mochalatte_code_setup")
+if 1 || !exists("g:did_mochalatte_code_setup")
 
     " Preamble {{{2
     let g:did_mochalatte_code_setup = 1
@@ -116,8 +116,8 @@ if !exists("g:did_mochalatte_code_setup")
         hi Visual           guifg=#000000   guibg=#768798   gui=NONE
         """ }}}4
         """ Pop-up Menus {{{4
-        hi Pmenu            guifg=#000000   guibg=#bbaa99
-        hi PmenuSel         guifg=#000000   guibg=#ffffdd
+        hi Pmenu            guifg=#000000   guibg=#bbbaaa
+        hi PmenuSel         guifg=#000000   guibg=#ee9944
         """ }}}4
         """ Messaging {{{4
         hi ModeMsg          guifg=#000000   guibg=#00ff00   gui=bold
