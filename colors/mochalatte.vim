@@ -156,7 +156,7 @@ if !exists("g:did_mochalatte_code_setup")
         """ Other {{{4
         hi Directory        guifg=#ddaa66   guibg=bg        gui=NONE
         hi MatchParen       guifg=#fff000   guibg=bg        gui=bold
-        hi SpecialKey       guifg=#cccc44   guibg=bg        gui=bold
+        hi SpecialKey       guifg=#cc6644   guibg=bg        gui=bold
         hi WildMenu         guifg=#000000   guibg=#87ceeb   gui=NONE
         """ Special Syntax {{{4
         hi link pythonDecoratorFunction pythonDecorator
