@@ -1,4 +1,4 @@
-# Nefertiti
+# Nefertiti (Previously Known as "MochaLatte")
 
 
 <a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" width=350 /></a>
