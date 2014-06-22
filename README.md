@@ -1,10 +1,10 @@
-# Nefertiti (Previously Known as "MochaLatte")
+# Nefertiti
 
 
 <a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" width=350 /></a>
 
-A warm dark-background color scheme for Vim, featuring dynamic control of
-brightness-levels as needed.
+A warm dark-background color scheme for Vim (previously known as "MochaLatte"),
+featuring dynamic control of brightness-levels as needed.
 
 Brighten select (normal and syntax) colors with "`:NefertitiBrighten`", or
 darken them with "`:NefertitiDarken`". Conveniently bound to "`META-2`" and
