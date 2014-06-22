@@ -5,12 +5,15 @@
 A warm dark-background color scheme for Vim, featuring dynamic control of
 brightness-levels as needed.
 
+
 Brighten select (normal and syntax) colors with "`:NefertitiBrighten`", or
 darken them with "`:NefertitiDarken`". Conveniently bound to "`META-2`" and
 "`META-1`", respectively, but you can, of course, suppress the key mappings
 and/or replace them with others of your own preference.
 
-**NOTE**: GUI Vim only at the present time.
+**NOTE**:
+    -   GUI Vim only at the present time.
+    -   Previously known as MochaLatte.
 
 ## Installation
 
