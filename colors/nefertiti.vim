@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" MochaLatte Vim Color Scheme
+"" Nefertiti Vim Color Scheme
 "" (C) Copyright 2014 Jeet Sukumaran
 "" Released under the BSD License
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -10,79 +10,79 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let colors_name = "mochalatte"
+let colors_name = "nefertiti"
 " }}}1
 
 " Code Setup {{{1
-if !exists("g:did_mochalatte_code_setup")
+if !exists("g:did_nefertiti_code_setup")
 
     " Preamble {{{2
-    let g:did_mochalatte_code_setup = 1
+    let g:did_nefertiti_code_setup = 1
     let s:save_cpo = &cpo
     " }}}2
 
     " Dynamic Colors Base Definitions {{{2`
-    let s:mochalatte_dynamic_colors = {}
-    let s:mochalatte_dynamic_colors["Normal"]            = [ [0xdd, 0xd6, 0xc0], [], "guibg=#302a2a gui=NONE" ]
-    let s:mochalatte_dynamic_colors["NonText"]           = [ [0x66, 0x60, 0x46], [], "guibg=bg gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Folded"]            = [ [0x88, 0x80, 0x78], [0x3c, 0x34, 0x34], "gui=italic" ]
-    let s:mochalatte_dynamic_colors["Comment"]           = [ [0x70, 0x70, 0x70], [], "gui=italic" ]
-    let s:mochalatte_dynamic_colors["Boolean"]           = [ [0xff, 0x98, 0x00], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["String"]            = [ [0xaa, 0xaa, 0x99], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Identifier"]        = [ [0x99, 0x88, 0x77], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Function"]          = [ [0xdd, 0xcc, 0xa8], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Type"]              = [ [0x99, 0x66, 0x44], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Statement"]         = [ [0x90, 0x9a, 0x9f], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Keyword"]           = [ [0x90, 0x9a, 0x9f], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Constant"]          = [ [0xff, 0x98, 0x00], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Number"]            = [ [0xcc, 0x88, 0x00], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Special"]           = [ [0x71, 0x96, 0x11], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["PreProc"]           = [ [0xbb, 0xaa, 0x88], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Title"]             = [ [0x77, 0x88, 0x88], [], "gui=NONE" ]
-    let s:mochalatte_dynamic_colors["Todo"]              = [ [0x8f, 0x6f, 0x8f], [], "guibg=#202020   gui=italic,underline,bold" ]
-    let s:mochalatte_dynamic_colors["pythonExClass"]     = [ [0x99, 0x76, 0x76], [], "guibg=NONE gui=NONE" ]
-    let s:mochalatte_dynamic_colors["pythonDecorator"]   = [ [0x88, 0x77, 0x44], [], "guibg=NONE gui=NONE" ]
+    let s:nefertiti_dynamic_colors = {}
+    let s:nefertiti_dynamic_colors["Normal"]            = [ [0xdd, 0xd6, 0xc0], [], "guibg=#302a2a gui=NONE" ]
+    let s:nefertiti_dynamic_colors["NonText"]           = [ [0x66, 0x60, 0x46], [], "guibg=bg gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Folded"]            = [ [0x88, 0x80, 0x78], [0x3c, 0x34, 0x34], "gui=italic" ]
+    let s:nefertiti_dynamic_colors["Comment"]           = [ [0x70, 0x70, 0x70], [], "gui=italic" ]
+    let s:nefertiti_dynamic_colors["Boolean"]           = [ [0xff, 0x98, 0x00], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["String"]            = [ [0xaa, 0xaa, 0x99], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Identifier"]        = [ [0x99, 0x88, 0x77], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Function"]          = [ [0xdd, 0xcc, 0xa8], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Type"]              = [ [0x99, 0x66, 0x44], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Statement"]         = [ [0x90, 0x9a, 0x9f], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Keyword"]           = [ [0x90, 0x9a, 0x9f], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Constant"]          = [ [0xff, 0x98, 0x00], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Number"]            = [ [0xcc, 0x88, 0x00], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Special"]           = [ [0x71, 0x96, 0x11], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["PreProc"]           = [ [0xbb, 0xaa, 0x88], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Title"]             = [ [0x77, 0x88, 0x88], [], "gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Todo"]              = [ [0x8f, 0x6f, 0x8f], [], "guibg=#202020   gui=italic,underline,bold" ]
+    let s:nefertiti_dynamic_colors["pythonExClass"]     = [ [0x99, 0x76, 0x76], [], "guibg=NONE gui=NONE" ]
+    let s:nefertiti_dynamic_colors["pythonDecorator"]   = [ [0x88, 0x77, 0x44], [], "guibg=NONE gui=NONE" ]
     " }}}2
 
     " Dynamic Colors State Tracking Variables {{{2
-    let s:mochalatte_brightness_levels = range(-96, 96, 8)
-    let s:mochalatte_brightness_level_max = len(s:mochalatte_brightness_levels) - 1
-    let s:mochalatte_brightness_level_min = 0
-    let s:mochalatte_default_brightness_level = index(s:mochalatte_brightness_levels, 0)
-    let g:mochalatte_base_brightness_level = get(g:, 'mochalatte_base_brightness_level', s:mochalatte_default_brightness_level)
-    let g:mochalatte_current_brightness_level = g:mochalatte_base_brightness_level
+    let s:nefertiti_brightness_levels = range(-96, 96, 8)
+    let s:nefertiti_brightness_level_max = len(s:nefertiti_brightness_levels) - 1
+    let s:nefertiti_brightness_level_min = 0
+    let s:nefertiti_default_brightness_level = index(s:nefertiti_brightness_levels, 0)
+    let g:nefertiti_base_brightness_level = get(g:, 'nefertiti_base_brightness_level', s:nefertiti_default_brightness_level)
+    let g:nefertiti_current_brightness_level = g:nefertiti_base_brightness_level
     " }}}2
 
     " Functions {{{2
-    function! s:_mochalatte_change_brightness(step, up) "{{{3
+    function! s:_nefertiti_change_brightness(step, up) "{{{3
         if empty(a:step)
             let l:level_step = 1
         else
             let l:level_step = a:step + 0
         endif
         if a:up
-            let g:mochalatte_current_brightness_level += l:level_step
+            let g:nefertiti_current_brightness_level += l:level_step
         else
-            let g:mochalatte_current_brightness_level -= l:level_step
+            let g:nefertiti_current_brightness_level -= l:level_step
         endif
-        call s:_mochalatte_validate_brightness_level()
-        colorscheme mochalatte
+        call s:_nefertiti_validate_brightness_level()
+        colorscheme nefertiti
     endfunction "}}}3
 
-    function! s:_mochalatte_validate_brightness_level() "{{{3
-        if g:mochalatte_current_brightness_level < s:mochalatte_brightness_level_min
-            let g:mochalatte_current_brightness_level = s:mochalatte_brightness_level_min
-        elseif g:mochalatte_current_brightness_level > s:mochalatte_brightness_level_max
-            let g:mochalatte_current_brightness_level = s:mochalatte_brightness_level_max
+    function! s:_nefertiti_validate_brightness_level() "{{{3
+        if g:nefertiti_current_brightness_level < s:nefertiti_brightness_level_min
+            let g:nefertiti_current_brightness_level = s:nefertiti_brightness_level_min
+        elseif g:nefertiti_current_brightness_level > s:nefertiti_brightness_level_max
+            let g:nefertiti_current_brightness_level = s:nefertiti_brightness_level_max
         endif
     endfunction "}}}3
 
-    function! s:_mochalatte_reset_brightness() "{{{3
-        let g:mochalatte_current_brightness_level = g:mochalatte_base_brightness_level
-        colorscheme mochalatte
+    function! s:_nefertiti_reset_brightness() "{{{3
+        let g:nefertiti_current_brightness_level = g:nefertiti_base_brightness_level
+        colorscheme nefertiti
     endfunction "}}}3
 
-    function! s:_mochalatte_set_stable_colors() "{{{3
+    function! s:_nefertiti_set_stable_colors() "{{{3
         """ Cursor {{{4
         hi Cursor           guifg=NONE      guibg=#626262   gui=NONE
         hi nCursor          guifg=black     guibg=green1    gui=NONE
@@ -116,7 +116,7 @@ if !exists("g:did_mochalatte_code_setup")
         hi Visual           guifg=#000000   guibg=#768798   gui=NONE
         """ }}}4
         """ Pop-up Menus {{{4
-        hi Pmenu            guifg=#000000   guibg=#bbbaaa
+        hi Pmenu            guifg=#000000   guibg=#ccc0aa
         hi PmenuSel         guifg=#000000   guibg=#ee9944
         """ }}}4
         """ Messaging {{{4
@@ -163,13 +163,13 @@ if !exists("g:did_mochalatte_code_setup")
         """ }}}4
     endfunction "}}}3
 
-    function! s:_mochalatte_set_dynamic_colors() "{{{3
-        call s:_mochalatte_validate_brightness_level()
-        let brightness_boost = s:mochalatte_brightness_levels[g:mochalatte_current_brightness_level]
-        for highlight_name in keys(s:mochalatte_dynamic_colors)
-            let fg_rgb_list = copy(s:mochalatte_dynamic_colors[highlight_name][0])
-            let bg_rgb_list = copy(s:mochalatte_dynamic_colors[highlight_name][1])
-            let other = s:mochalatte_dynamic_colors[highlight_name][2]
+    function! s:_nefertiti_set_dynamic_colors() "{{{3
+        call s:_nefertiti_validate_brightness_level()
+        let brightness_boost = s:nefertiti_brightness_levels[g:nefertiti_current_brightness_level]
+        for highlight_name in keys(s:nefertiti_dynamic_colors)
+            let fg_rgb_list = copy(s:nefertiti_dynamic_colors[highlight_name][0])
+            let bg_rgb_list = copy(s:nefertiti_dynamic_colors[highlight_name][1])
+            let other = s:nefertiti_dynamic_colors[highlight_name][2]
             if !empty(fg_rgb_list)
                 for idx in range(len(fg_rgb_list))
                     let c = fg_rgb_list[idx] + brightness_boost
@@ -202,9 +202,9 @@ if !exists("g:did_mochalatte_code_setup")
         endfor
     endfunction "}}}3
 
-    function! s:_mochalatte_set_colors() "{{{3
-        call s:_mochalatte_set_stable_colors()
-        call s:_mochalatte_set_dynamic_colors()
+    function! s:_nefertiti_set_colors() "{{{3
+        call s:_nefertiti_set_stable_colors()
+        call s:_nefertiti_set_dynamic_colors()
     endfunction "}}}3
     " }}}2
 
@@ -217,21 +217,21 @@ if !exists("g:did_mochalatte_code_setup")
 " Public Interface Setup {{{1
 
     " Commands {{{2
-    command! -nargs=? MochalatteDarken :call <SID>_mochalatte_change_brightness(<q-args>, 0)
-    command! -nargs=? MochalatteBrighten :call <SID>_mochalatte_change_brightness(<q-args>, 1)
-    command! -nargs=0 MochalatteReset :call <SID>_mochalatte_reset_brightness()
-    command! -nargs=0 MochalatteColors :call <SID>_mochalatte_set_colors()
+    command! -nargs=? NefertitiDarken :call <SID>_nefertiti_change_brightness(<q-args>, 0)
+    command! -nargs=? NefertitiBrighten :call <SID>_nefertiti_change_brightness(<q-args>, 1)
+    command! -nargs=0 NefertitiReset :call <SID>_nefertiti_reset_brightness()
+    command! -nargs=0 NefertitiColors :call <SID>_nefertiti_set_colors()
     " }}}2
 
     " Key Maps {{{2
-    nnoremap <silent> <Plug>MochalatteBrighten     :MochalatteBrighten<CR>
-    nnoremap <silent> <Plug>MochalatteDarken       :MochalatteDarken<CR>
-    nnoremap <silent> <Plug>MochalatteReset        :MochalatteReset<CR>
-    nnoremap <silent> <Plug>MochalatteColors       :MochalatteColors<CR>
-    if !exists('g:mochalatte_suppress_keymaps') || !g:mochalatte_suppress_keymaps
-        map <silent> <M-1>  <Plug>MochalatteDarken
-        map <silent> <M-2>  <Plug>MochalatteBrighten
-        map <silent> <M-0>  <Plug>MochalatteReset
+    nnoremap <silent> <Plug>NefertitiBrighten     :NefertitiBrighten<CR>
+    nnoremap <silent> <Plug>NefertitiDarken       :NefertitiDarken<CR>
+    nnoremap <silent> <Plug>NefertitiReset        :NefertitiReset<CR>
+    nnoremap <silent> <Plug>NefertitiColors       :NefertitiColors<CR>
+    if !exists('g:nefertiti_suppress_keymaps') || !g:nefertiti_suppress_keymaps
+        map <silent> <M-1>  <Plug>NefertitiDarken
+        map <silent> <M-2>  <Plug>NefertitiBrighten
+        map <silent> <M-0>  <Plug>NefertitiReset
     endif
     " }}}2
 
@@ -239,7 +239,7 @@ endif
 " }}}1
 
 " Set Colors {{{1
-:MochalatteColors
+:NefertitiColors
 " }}}1
 
 " Clean Up {{{1
