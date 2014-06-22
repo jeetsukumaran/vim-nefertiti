@@ -1,23 +1,21 @@
 # Nefertiti
 
+
 <a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" width=350 /></a>
 
 A warm dark-background color scheme for Vim, featuring dynamic control of
 brightness-levels as needed.
-
 
 Brighten select (normal and syntax) colors with "`:NefertitiBrighten`", or
 darken them with "`:NefertitiDarken`". Conveniently bound to "`META-2`" and
 "`META-1`", respectively, but you can, of course, suppress the key mappings
 and/or replace them with others of your own preference.
 
-**NOTE**:
-    -   GUI Vim only at the present time.
-    -   Previously known as MochaLatte.
+**NOTE**: GUI Vim only at the present time.
 
 ## Installation
 
-### [pathogen.vim](https://github.com/tpope/vim-pathogen)
+### [Pathogen](https://github.com/tpope/vim-pathogen)
 
     $ cd ~/.vim/bundle
     $ git clone git://github.com/jeetsukumaran/vim-nefertiti
@@ -30,6 +28,17 @@ and/or replace them with others of your own preference.
 
 Copy the file "`colors/nefertiti.vim`" to your "`~.vim/colors/`"
 subdirectory.
+
+### Updating from "MochaLatte"
+
+This color scheme was previously known as "MochaLatte", as was the repository. If you cloned this repository from its "MochaLatte" days, everything should still work fine, though you will probably need to update your "~/.vimrc" to set the color scheme correctly.
+
+If you installed this color scheme as a Git submodule, you might want to update by:
+
+    $ cd ~/.vim/bundle
+    $ git submodule deinit vim-mochalatte
+    $ git submodule add git://github.com/jeetsukumaran/vim-nefertiti vim-nefertiti
+    $ git commit -a -m "Updated MochaLatte to Nefertiti"
 
 ## Usage
 
