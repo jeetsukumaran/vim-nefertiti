@@ -23,7 +23,7 @@ if !exists("g:did_nefertiti_code_setup")
 
     " Dynamic Colors Base Definitions {{{2`
     let s:nefertiti_dynamic_colors = {}
-    let s:nefertiti_dynamic_colors["Normal"]            = [ [0xdd, 0xd6, 0xc0], [], "guibg=#2c2a26 gui=NONE" ]
+    let s:nefertiti_dynamic_colors["Normal"]            = [ [0xdd, 0xd6, 0xc0], [], "guibg=#2c2824 gui=NONE" ]
     let s:nefertiti_dynamic_colors["NonText"]           = [ [0x66, 0x60, 0x46], [], "guibg=bg gui=NONE" ]
     let s:nefertiti_dynamic_colors["Folded"]            = [ [0x88, 0x80, 0x78], [0x3c, 0x34, 0x34], "gui=italic" ]
     let s:nefertiti_dynamic_colors["Comment"]           = [ [0x70, 0x70, 0x70], [], "gui=italic" ]
