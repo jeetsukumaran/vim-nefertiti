@@ -93,7 +93,7 @@ if !exists("g:did_nefertiti_code_setup")
         """ Cursor Line/Column {{{4
         hi CursorColumn     guibg=#000000
         hi CursorLine       guibg=#000000
-        hi CursorLineNr     guifg=#ffee99 guibg=bg gui=none
+        hi CursorLineNr     guifg=#ffee99   guibg=bg        gui=none
         hi ColorColumn      guibg=#202020
         """ }}}4
         """ Structural {{{4
@@ -105,9 +105,9 @@ if !exists("g:did_nefertiti_code_setup")
         hi FoldColumn       guifg=#68838b   guibg=#4B4B4B   gui=bold
         """ }}}4
         """ Tabs {{{4
-        hi TabLine          guifg=fg        guibg=#d3d3d3   gui=underline
-        hi TabLineFill      guifg=fg        guibg=bg        gui=reverse
-        hi TabLineSel       guifg=fg        guibg=bg        gui=bold
+        hi TabLine          guifg=#ddd6c0   guibg=#9d9080   gui=NONE
+        hi TabLineFill      guifg=#9d9080   guibg=#ddd6c0   gui=reverse
+        hi TabLineSel       guibg=#2c2824   guifg=#ddd6c0   gui=bold
         """ }}}4
         """ Search {{{4
         hi IncSearch        guifg=#000000   guibg=#ff8800   gui=BOLD
