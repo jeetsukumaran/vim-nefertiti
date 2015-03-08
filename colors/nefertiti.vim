@@ -133,26 +133,10 @@ if !exists("g:did_nefertiti_code_setup")
         hi SpellRare        guisp=#ff00ff   gui=undercurl
         """ }}}4
         """ Diff {{{4
-        hi DiffAdd          guifg=#000000   guibg=#3cb371   gui=NONE
-        hi DiffDelete       guifg=#000000   guibg=#aa4450   gui=NONE
-        hi DiffChange       guifg=#000000   guibg=#4f94cd   gui=NONE
-        hi DiffText         guifg=#000000   guibg=#8ee5ee   gui=NONE
-        hi diffOldFile      guifg=#88afcb   guibg=NONE      gui=italic
-        hi diffNewFile      guifg=#88afcb   guibg=NONE      gui=italic
-        hi diffFile         guifg=#88afcb   guibg=NONE      gui=italic
-        hi diffLine         guifg=#88afcb   guibg=NONE      gui=italic
-        hi link             diffSubname     diffLine
-        hi diffAdded        guifg=#3cb371   guibg=NONE      gui=NONE
-        hi diffRemoved      guifg=#aa4450   guibg=NONE      gui=NONE
-        hi diffChanged      guifg=#4f94cd   guibg=NONE      gui=NONE
-        hi link             diffOnly        Constant
-        hi link             diffIdentical   Constant
-        hi link             diffDiffer      Constant
-        hi link             diffBDiffer     Constant
-        hi link             diffIsA         Constant
-        hi link             diffNoEOL       Constant
-        hi link             diffCommon      Constant
-        hi link             diffComment     Constant
+        hi DiffAdd          guibg=#445544   gui=NONE
+        hi DiffDelete       guibg=#554422   gui=NONE
+        hi DiffChange       guibg=#224455   gui=NONE
+        hi DiffText         guibg=#224455   guifg=#00ffff gui=underline
         """ }}}4
         """ Other {{{4
         hi Directory        guifg=#ddaa66   guibg=bg        gui=NONE
