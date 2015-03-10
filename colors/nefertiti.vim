@@ -51,12 +51,12 @@ if !exists("g:did_nefertiti_code_setup")
     let s:nefertiti_default_brightness_level = index(s:nefertiti_brightness_levels, 0)
     let g:nefertiti_base_brightness_level = get(g:, 'nefertiti_base_brightness_level', s:nefertiti_default_brightness_level)
     let g:nefertiti_current_brightness_level = g:nefertiti_base_brightness_level
-    let g:nefertiti_base_search_highlight_intensity = get(g:, 'nefertiti_base_search_highlight_intensity', 3)
+    let g:nefertiti_base_search_highlight_intensity = get(g:, 'nefertiti_base_search_highlight_intensity', 4)
     let g:nefertiti_current_search_highlight_intensity = g:nefertiti_base_search_highlight_intensity
     " }}}2
 
     " Special Case Search Highlight Intensity {{{2
-    let s:_nefertiti_search_highlight_intensity_highlight_map = ["333333", "555555", "666660", "aaaa99", "ffffbb", "ffffff", "ff00ff"]
+    let s:_nefertiti_search_highlight_intensity_highlight_map = ["333333", "555555", "666660", "aaaa99", "ddddbb", "ffffbb", "ffffff", "ff00ff"]
     " }}}2
 
     " Functions {{{2
