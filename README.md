@@ -1,7 +1,7 @@
 # Nefertiti
 
 
-<a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" width=350 /></a>
+<a href="http://jeetblogs.org/media/images/vim-nefertiti_1.png" target="_blank"><img src="http://jeetblogs.org/media/images/vim-nefertiti_1.png" width=350 /></a>
 
 A warm dark-background color scheme for Vim (previously known as "MochaLatte"),
 featuring dynamic control of brightness-levels as needed.
@@ -66,9 +66,9 @@ also need something like the following in your "`~/.vimrc`":
 
 ## Samples
 
-<a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_1.png" width=200 /></a>
-<a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_2.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_2.png" width=200 /></a>
-<a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_3.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_3.png" width=200 /></a>
-<a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_4.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_4.png" width=200 /></a>
-<a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_5.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_5.png" width=200 /></a>
-<a href="http://jeetworks.org/wp-content/uploads/vim-nefertiti_6.png" target="_blank"><img src="http://jeetworks.org/wp-content/uploads/vim-nefertiti_6.png" width=200 /></a>
+<a href="http://jeetblogs.org/media/images/vim-nefertiti_1.png" target="_blank"><img src="http://jeetblogs.org/media/images/vim-nefertiti_1.png" width=200 /></a>
+<a href="http://jeetblogs.org/media/images/vim-nefertiti_2.png" target="_blank"><img src="http://jeetblogs.org/media/images/vim-nefertiti_2.png" width=200 /></a>
+<a href="http://jeetblogs.org/media/images/vim-nefertiti_3.png" target="_blank"><img src="http://jeetblogs.org/media/images/vim-nefertiti_3.png" width=200 /></a>
+<a href="http://jeetblogs.org/media/images/vim-nefertiti_4.png" target="_blank"><img src="http://jeetblogs.org/media/images/vim-nefertiti_4.png" width=200 /></a>
+<a href="http://jeetblogs.org/media/images/vim-nefertiti_5.png" target="_blank"><img src="http://jeetblogs.org/media/images/vim-nefertiti_5.png" width=200 /></a>
+<a href="http://jeetblogs.org/media/images/vim-nefertiti_6.png" target="_blank"><img src="http://jeetblogs.org/media/images/vim-nefertiti_6.png" width=200 /></a>
