@@ -20,7 +20,7 @@ and/or replace them with others of your own preference.
     $ cd ~/.vim/bundle
     $ git clone git://github.com/jeetsukumaran/vim-nefertiti
 
-### [Vundle](https://github.com/gmarik/vundle.git)
+### [Vundle](https://github.com/VundleVim/Vundle.vim)
 
     :BundleInstall jeetsukumaran/vim-nefertiti
 
@@ -57,7 +57,7 @@ Three commands are provided to control the brightness levels: "`:NefertitiBright
 By default, "`META-2`" ("`ALT-2`" on some keyboards) increases the brightness of the text while "`META-1`" ("`ALT-1`" on some keyboards) decreases the brightness of text. These key-mappings can be suppressed and or customized: see [the help](https://github.com/jeetsukumaran/vim-nefertiti/blob/master/doc/nefertiti.vim) for more details.
 
 Note that for the default (or any other "`META`" or "`ALT`") key mappings to
-work, if you are using [MacVim](https://code.google.com/p/macvim/), you will
+work, if you are using [MacVim](https://github.com/macvim-dev/macvim), you will
 also need something like the following in your "`~/.vimrc`":
 
     if has("gui_macvim")
